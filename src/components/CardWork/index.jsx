@@ -1,11 +1,13 @@
 import React from 'react';
 function CardWork({cname, cposition, clocation, cdate}) {
     return (
-        <div className="card card-lock">
-            <h4>{cname}</h4>
-            <h5>{clocation} </h5>
-            <h6>{cposition}</h6>
-            <span>{cdate}</span>
+        <div className="col-lg-4 col-md-12 col-12">
+            <div className="card card-lock">
+                <h3 className='h5'>{cname}</h3>
+                <h4 className='h5'>{clocation} </h4>
+                <h5>{cposition}</h5>
+                <span>{cdate}</span>
+            </div>
         </div>
     )
 }

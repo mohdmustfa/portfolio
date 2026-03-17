@@ -56,6 +56,7 @@ function Navigation() {
             <button
                 className="navbar-toggler"
                 type="button"
+                aria-label="menu-btn"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarName"
                 onClick={toggleMenu}

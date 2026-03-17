@@ -1,5 +1,6 @@
 :root{
   --mm-blue: #34c1e0;
+  --mm-blue-2 :#4eceee;
   --black: #000;
   --white: #fff;
   --mm-lighter-blue: rgba(52, 193, 224, .28);
@@ -11,4 +12,5 @@
   --mm-red: #ff4700;
   --mm-blue-gradient: linear-gradient(-180deg, #34c1e0, #144679);
   --mm-sec-gredient: transparent linear-gradient(93deg, #53D1EF 0%, #1976D2 100%) 0% 0% no-repeat padding-box;
+  --mm-font: 'Montserrat', sans-serif;
 }

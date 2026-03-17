@@ -56,7 +56,7 @@ function Portfolio() {
                                     <CardSkill icon="fab fa-bootstrap" title="Bootstrap/Tailwind" color="bs-5" />
                                     <CardSkill icon="fab fa-react" title="ReactJS" color="js" />
                                     <CardSkill icon="fas fa-universal-access" title="Web accessibility(WCAG)" color="scss" />
-                                    <CardSkill icon="fab fa-wordpress" title="WordPress/Hubspot" color="wp-5" />
+                                    <CardSkill icon="fab fa-wordpress" title="WP/Hubspot" color="wp-5" />
                                     <CardSkill icon="fab fa-sass" title="SCSS/LESS" color="scss" />
                                     <CardSkill icon="fab fa-figma" title="Figma/Xd" color="less" />
                                 </div>
@@ -109,8 +109,8 @@ function Portfolio() {
                                 </div>
                                   <div className="bg-info-bx">
                                     <div className="info-bx row justify-content-center">
-                                        <Contact cicon="fab fa-linkedin" clink="https://www.linkedin.com/in/mohd-mustfa-202666128/" clinkText="LinkedIn" cCol="col-md-3"/>
-                                        <Contact cicon="fas fa-envelope" clink="mailto:mdmustfamalik786@gmail.com" clinkText="Email" cCol="col-md-3"/>
+                                        <Contact cicon="fab fa-linkedin" clink="https://www.linkedin.com/in/mohd-mustfa-202666128/" clinkText="LinkedIn" cCol="col-md-5 col-lg-3 col"/>
+                                        <Contact cicon="fas fa-envelope" clink="mailto:mdmustfamalik786@gmail.com" clinkText="Email" cCol="col-md-5 col-lg-3 col"/>
                                     </div>
                                 </div>
                             </div>

@@ -4,7 +4,11 @@ function Navigation() {
 
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState("");
+  const [menuOpen, setMenuOpen] = useState(false);
 
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+   };
   useEffect(() => {
 
     const sections = document.querySelectorAll("section");
@@ -49,7 +53,16 @@ function Navigation() {
       }`}
     >
       <div className="container">
-
+            <button
+                className="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarName"
+                onClick={toggleMenu}
+                >
+                <i className={`fas ${menuOpen ? "fa-times" : "fa-bars"}`}></i>
+            </button>
+        <div className="collapse navbar-collapse" id="navbarName">
         <ul className="navbar-nav ms-auto me-auto">
 
           <li className="nav-item">
@@ -119,7 +132,7 @@ function Navigation() {
           </li>
 
         </ul>
-
+       </div>
       </div>
     </nav>
   );

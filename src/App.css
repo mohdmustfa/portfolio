@@ -79,6 +79,19 @@ input:focus{
 .top-main-nav.nav-scrolled .nav-item .nav-link{
   color: #4ecaea;
 }
+.top-main-nav .navbar-toggler{
+    color: #fff;
+    border-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-main-nav .navbar-toggler:focus{
+  box-shadow: none;
+}
+.top-main-nav.nav-scrolled .navbar-toggler{
+    color: #4eceee;
+    border-color: #4eceee;
+}
  .title-sec{
   padding-top: 100px;
   padding-bottom: 100px;
@@ -658,18 +671,24 @@ footer ul.social li a:hover{
 }
 
 @media screen and (max-width: 992px){
-  .f-name{
+  .f-name {
     font-size: 17px;
     margin: auto;
     max-width: 85%;
     left: 50%;
     transform: translate(-50%, 0%);
   }
-  .founder-img{
+  .founder-img {
     text-align: center;
   }
-   .pad-col:before{
+   .pad-col:before {
     display: none;
+  }
+  .top-main-nav.navbar {
+    background: linear-gradient(-180deg, #34c1e0, #144679);
+  }
+  .top-main-nav.nav-scrolled{
+    background: var(--white);
   }
 }
 @media screen and (max-width: 767px){
@@ -682,7 +701,6 @@ footer ul.social li a:hover{
   
   .pad-col{
     padding: 40px 20px;
-    border: 10px solid white;
   }
  
   .founder-img{
@@ -727,33 +745,59 @@ footer ul.social li a:hover{
     font-size: 13px;
   }
   .services-sec .serve-box .w-3-1{
-  grid-column-end: span 3;
-}
-.services-sec .serve-box .w-1-2{
-  grid-row-end: span 1;
-  grid-column-end: span 3;
-}
-.services-sec .serve-box .w-1-1{
-  grid-column-end: span 3;
-  grid-row-end: span 1;
-}
-.services-sec .serve-box .w-cr-2-1{
+    grid-column-end: span 3;
+  }
+  .services-sec .serve-box .w-1-2{
+    grid-row-end: span 1;
+    grid-column-end: span 3;
+  }
+  .services-sec .serve-box .w-1-1{
     grid-column-end: span 3;
     grid-row-end: span 1;
-}
-.services-sec .serve-box .cs-2{
-    grid-column-end: span 3;
-}
-.pad-col h1{
-     font-size: 1.2rem;
-}
-.about-section{
-      padding-top: 60px;
-    padding-bottom: 60px;
-}
-.about-section:before,
-.about-section:after{
-  height: 60px;
-  width: 60px;
-}
+  }
+  .services-sec .serve-box .w-cr-2-1{
+      grid-column-end: span 3;
+      grid-row-end: span 1;
+  }
+  .services-sec .serve-box .cs-2{
+      grid-column-end: span 3;
+  }
+  .pad-col h1{
+      font-size: 1.2rem;
+  }
+  .about-section{
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .bg-top-home{
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .services-sec{
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+  .work-section {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  .contact-sec{
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+  .services-sec .serve-box{
+    grid-auto-rows: 140px;
+    grid-gap: 12px;
+  }
+  .about-section:before,
+  .about-section:after{
+    height: 60px;
+    width: 60px;
+  }
+  .working-location .card-lock{
+    margin: 0 auto 12px;
+  }
+  .services-sec .inner-box h3{
+    font-size: 1rem
+  }
 }

@@ -116,4 +116,4 @@ const particles = {
 
 
 // year for copy right
-  document.getElementById("year").textContent = new Date().getFullYear();
+  // document.getElementById("year").textContent = new Date().getFullYear();

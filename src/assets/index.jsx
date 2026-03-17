@@ -1,0 +1,13 @@
+export { default as Logom } from 'assets/logom.png';
+export { default as FounderImg } from 'assets/founder-2.png';
+export { default as SampleFort } from 'assets/sample-fort.png';
+export { default as SampleCap } from 'assets/sample-cap.png';
+export { default as SampleAcd } from 'assets/sample-acd.png';
+export { default as SampleSocal } from 'assets/sample-socal.png';
+export { default as SampleHg } from 'assets/sample-hhg.png';
+export { default as SampleMbb } from 'assets/sample-mbb.png';
+export { default as SampleDash } from 'assets/sample-dashboard.png';
+export { default as SampleBot } from 'assets/sample-bot.png';
+export { default as SampleLanding } from 'assets/sample-landing.png';
+export { default as SampleSingle } from 'assets/sample-single.png';
+export { default as SampleLinkedin } from 'assets/sample-linked.png';

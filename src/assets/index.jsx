@@ -11,3 +11,4 @@ export { default as SampleBot } from 'assets/sample-bot.png';
 export { default as SampleLanding } from 'assets/sample-landing.png';
 export { default as SampleSingle } from 'assets/sample-single.png';
 export { default as SampleLinkedin } from 'assets/sample-linked.png';
+export { default as SampleAW } from 'assets/asSample.png';

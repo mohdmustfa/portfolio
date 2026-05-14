@@ -16,6 +16,7 @@ import SampleAcd from '../../assets/sample-acd.png';
 import SampleSocal from '../../assets/sample-socal.png';
 import SampleMbb from '../../assets/sample-mbb.png';
 import SampleHhg from '../../assets/sample-hhg.png';
+import SampleAW from '../../assets/asSample.png';
 function Portfolio() {
     const skills = [
         { id: 1, icon: "fab fa-html5", title: "HTML5", color: "html-5" },
@@ -33,6 +34,15 @@ function Portfolio() {
             {
                 id: 1,
                 pIcon: "fas fa-link",
+                pTitle: "Access Watch",
+                pLink: "https://access-watch.netlify.app",
+                pImage: SampleAW,
+                pAlt: "Access Watch",
+                pDesc: "about Access Watch."
+            },
+            {
+                id: 2,
+                pIcon: "fas fa-link",
                 pTitle: "Fortitude",
                 pLink: "https://fortitudeadvisors.com",
                 pImage: SampleFort,
@@ -40,7 +50,7 @@ function Portfolio() {
                 pDesc: "about Fortitude Advisors."
             },
             {
-                id: 2,
+                id: 3,
                 pIcon: "fas fa-link",
                 pTitle: "Capitolis",
                 pLink: "https://capitolis.com",
@@ -49,7 +59,7 @@ function Portfolio() {
                 pDesc: "about Capitolis."
             },
             {
-                id: 3,
+                id: 4,
                 pIcon: "fas fa-link",
                 pTitle: "Acadeum",
                 pLink: "https://acadeum.com",
@@ -58,32 +68,24 @@ function Portfolio() {
                 pDesc: "about Acadeum."
             },
             {
-                id: 4,
+                id: 5,
                 pIcon: "fas fa-link",
-                pTitle: "SoCal Marketing Club",
+                pTitle: "SoCal Marketing",
                 pLink: "https://socalmarketingclub.com",
                 pImage: SampleSocal,
                 pAlt: "SoCal Marketing Club",
                 pDesc: "about SoCal Marketing Club."
             },
             {
-                id: 5,
+                id: 6,
                 pIcon: "fas fa-link",
                 pTitle: "HH Global",
                 pLink: "https://www.hhglobal.com",
                 pImage: SampleHhg,
                 pAlt: "HH Global",
                 pDesc: "about HH Global."
-            },
-            {
-                id: 6,
-                pIcon: "fas fa-link",
-                pTitle: "Mebebot",
-                pLink: "https://www.mebebot.com",
-                pImage: SampleMbb,
-                pAlt: "Mebebot",
-                pDesc: "about Mebebot."
             }
+            
         ];
 
         const experiences = [
@@ -92,7 +94,7 @@ function Portfolio() {
                 cname: "C2Perform",
                 cposition: "Sr. UI Developer (Web Accessibility)",
                 clocation: "Remote, USA",
-                cdate: "July 2024 - May 2026"
+                cdate: "July 2024 - Present"
             },
             {
                 id: 2,

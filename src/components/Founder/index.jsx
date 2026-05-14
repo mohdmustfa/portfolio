@@ -7,7 +7,7 @@ function Founder() {
                 <img src={FounderImg} className="img-fluid founder" alt="Frontend Developer working with React and accessibility"/>
             </div>
             <div className="f-name"> 
-                <span>M M Malik<span className="small d-block">(Front-End Engineer)</span></span>
+                <span>M M Malik<span className="small d-block">Front-End - Accessibility Engineer</span></span>
             </div>
         </>
     )
